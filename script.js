@@ -13,7 +13,7 @@ function line(x1a, y1a, x2a, y2a) {
     dy = Math.abs(x2a - x1a);
   }
   let pk = 2 * dy - dx;
-  for (let i = 0; i <= dx; i++) {
+  for (let i = 0; i <= dx-1; i++) {
     if (!side) {
       // plot as x1, y1
     } else {
